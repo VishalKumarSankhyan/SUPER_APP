@@ -234,6 +234,7 @@ body::-webkit-scrollbar{
 @media only screen and (min-width:700px) {
   .super_app_switch_box{
     width:60%;
+    margin:0px auto;
   }
 }
 
