@@ -86,12 +86,12 @@ recognition.onresult = function(event) {
     example_rounded_5.checked = false;
   }
   
-  if (transcript == "turn on light 6"){
+  if (transcript == "turn on light 6" || transcript == "turn on light six"){
     super_app_speak("turning on light 6");
     example_rounded_6.checked = true;
   }
   
-  if (transcript == "turn off light 6" ){
+  if (transcript == "turn off light 6" || transcript == "turn off light six" ){
     super_app_speak ("turning off light 6");
     example_rounded_6.checked = false;
   }
